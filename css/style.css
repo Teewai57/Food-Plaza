@@ -91,6 +91,16 @@ a:hover{
     height: 85px;
 }
 
+.eathealthy{
+    font-weight: bold;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.secondcard{
+    background: rgba(166, 229, 194, 0.25);
+}
+
 
 @media (max-width:768px) {
     .none{

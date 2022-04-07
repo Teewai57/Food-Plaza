@@ -1,0 +1,17 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+}
+.nav-item{
+    margin-left: 40px;
+    font-size: 18px;
+}
+.plaza{
+    color: #2CBF6C;
+}
+.home{
+    color: #2CBF6C;
+}

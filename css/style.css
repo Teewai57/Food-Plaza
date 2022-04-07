@@ -15,3 +15,47 @@ body{
 .home{
     color: #2CBF6C;
 }
+.second{
+    margin-top: 150px !important;
+}
+.second h6{
+    font-weight: 600;
+
+}
+.second h3{
+    font-weight: bolder;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.greenbtn{
+    background-color:#2CBF6C;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+.greenbtn:hover{
+    background-color: rgb(245, 241, 241);
+    border: 1px solid #2CBF6C;
+    color: #2CBF6C;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.whitebtn{
+    border: 1px solid #2CBF6C;
+    color: #2CBF6C;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+.whitebtn:hover{
+    background-color:#29a05d;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+}

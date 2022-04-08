@@ -31,7 +31,7 @@ a:hover {
 }
 
 .second {
-    margin-top: 130px !important;
+    margin-top: 100px !important;
 }
 
 .second h6 {
@@ -99,6 +99,7 @@ a:hover {
 .cardtext {
     font-weight: 700;
     word-spacing: 2px;
+    margin-top: 10px;
 }
 
 .card {

@@ -199,6 +199,10 @@ a:hover {
     .second p{
         font-size: 10px;
     }
+    .navbar-brand{
+        position: relative;
+        right:20px;
+    }
 }
 @media (max-width:768px) {
     .none {
@@ -212,6 +216,10 @@ a:hover {
     .navbar-toggler:focus {
         border: none !important;
         border-color: rgba(0, 0, 0, .1);
+    }
+    .navbar-brand{
+        position: relative;
+        right:20px;
     }
 
 }

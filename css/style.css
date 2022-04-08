@@ -212,10 +212,13 @@ a:hover {
         border: none !important;
         border-color: rgba(0, 0, 0, .1);
     }
+
 }
 @media (max-width:425px) {
     .navbar-brand{
         font-size: 25px;
+        position: relative;
+        right:20px;
     }
     .navbar-toggler-icon{
         width: 20px;
@@ -233,6 +236,7 @@ a:hover {
     }
     .second p{
         font-size: 10px;
+        
     }
     .buttons{
         display: flex;
@@ -251,6 +255,8 @@ a:hover {
     }
     .cardtext{
         font-size: 18px;
+        position: relative;
+        bottom: 10px;
     }
     .card-title{
         font-size:16px !important ;
@@ -262,4 +268,5 @@ a:hover {
     .eathealthy{
         font-size: 18px;
     }
+
 }

@@ -230,4 +230,15 @@ a:hover {
         height: 30px !important;
         font-size: 10px !important;
     }
+    .cardtext{
+        font-size: 18px;
+    }
+    .card-title{
+        font-size:16px !important ;
+    }
+    .card-img {
+        width: 100px;
+        height: 70px;
+    }
+    
 }

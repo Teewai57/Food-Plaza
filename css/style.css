@@ -1,51 +1,61 @@
-body{
+body {
     font-family: 'Poppins', sans-serif !important;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-weight: bold;
     font-size: 30px;
     font-family: 'Libre Caslon Text', serif !important;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     color: black !important;
 }
-.nav-item{
+
+.nav-item {
     margin-left: 40px;
     font-size: 15px;
     font-weight: bold;
 }
 
-.plaza{
+.plaza {
     color: #2CBF6C;
 }
-.home{
+
+.home {
     color: #2CBF6C !important;
 }
-a:hover{
+
+a:hover {
     color: #2CBF6C !important;
 }
-.second{
+
+.second {
     margin-top: 130px !important;
 }
-.second h6{
+
+.second h6 {
     font-weight: 600;
-    
+
 }
-.second h3{
+
+.second h3 {
     font-weight: bolder;
     word-spacing: 2px;
     letter-spacing: 1px;
     font-size: 40px;
 }
-.greenbtn{
-    background-color:#2CBF6C;
+
+.greenbtn {
+    background-color: #2CBF6C;
     color: #FFFFFF;
     border-radius: 8px;
     font-weight: bold;
     font-size: 13px;
-    
+
 }
-.greenbtn:hover{
+
+.greenbtn:hover {
     transition: ease;
     transition: all, 0.5s;
     background-color: white;
@@ -54,112 +64,170 @@ a:hover{
     border-radius: 8px;
     font-weight: bold;
     font-size: 13px;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 
 }
-.whitebtn{
+
+.whitebtn {
     border: 1px solid #2CBF6C;
     color: #2CBF6C;
     border-radius: 8px;
     font-weight: bold;
     font-size: 13px;
-    
+
 }
-.whitebtn:hover{
+
+.whitebtn:hover {
     transition: ease;
     transition: all, 0.5s;
-    background-color:#29a05d;
+    background-color: #29a05d;
     color: #FFFFFF;
     border-radius: 8px;
     font-weight: bold;
     font-size: 13px;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 
 }
 
-.firstimg{
+.firstimg {
     width: 100%;
     height: 100%;
     position: relative;
     bottom: 80px !important;
 }
-.cardtext{
+
+.cardtext {
     font-weight: 700;
     word-spacing: 2px;
 }
 
-.card{
+.card {
     background-color: #F2F2F280;
     align-items: center;
     border: none !important;
     margin-bottom: 15px;
 }
-.card:hover{
+
+.card:hover {
     transition: ease;
     transition: all, 0.5s;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 }
-.card .card-body{
+
+.card .card-body {
     text-align: center;
 }
-.card-img{
+
+.card-img {
     width: 100px;
     height: 85px;
 }
-.cardtext .tips .eathealthy{
+
+.cardtext .tips .eathealthy {
     font-family: 'Libre Caslon Text', serif !important;
 }
 
-.eathealthy{
+.eathealthy {
     font-weight: bold;
     word-spacing: 3px;
     letter-spacing: 1px;
 }
 
-.second p{
+.second p {
     font-size: 13px;
 }
-.secondcard{
+
+.secondcard {
     background: rgba(166, 229, 194, 0.25);
     margin-bottom: 15px;
 }
-.secondcard .card-title{
+
+.secondcard .card-title {
     color: #067235;
     font-weight: bold;
     font-size: 20px;
 }
-.secondcard .card-text{
+
+.secondcard .card-text {
     font-size: 13px !important;
 }
 
-.last{
+.last {
     margin-bottom: 30px;
 }
-.tips{
+
+.tips {
     font-size: 13px;
     font-weight: bold;
 }
-.secondsection .card-title{
+
+.secondsection .card-title {
     font-weight: bold;
     font-size: 19px;
 }
-.secondsection .card-text{
+
+.secondsection .card-text {
     font-size: 13px;
 }
-.secondsection .dollar{
+
+.secondsection .dollar {
     font-weight: bold;
 }
-.greens{
+
+.greens {
     width: 40px;
-    height:40px;
+    height: 40px;
 }
 
 
 @media (max-width:768px) {
-    .none{
+    .none {
         display: none;
     }
-    .nav-item{
+
+    .nav-item {
         margin-left: auto !important;
+    }
+
+    .navbar-toggler:focus {
+        border: none !important;
+        border-color: rgba(0, 0, 0, .1);
+    }
+}
+@media (max-width:425px) {
+    .navbar-brand{
+        font-size: 25px;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .second{
+        position: relative;
+        bottom: 50px;
+    }
+    .second h6{
+        font-size: 12px;
+    }
+    .second h3{
+        font-size: 20px;
+    }
+    .second p{
+        font-size: 10px;
+    }
+    .buttons{
+        display: flex;
+        font-size: 10px !important;
+    }
+    .greenbtn{
+        width: 120px;
+        height: 30px !important;
+        font-size: 10px !important;
+
+    }
+    .whitebtn{
+        width: 150px;
+        height: 30px !important;
+        font-size: 10px !important;
     }
 }

@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 .navbar-brand{
     font-weight: bold;
@@ -99,6 +99,36 @@ a:hover{
 
 .secondcard{
     background: rgba(166, 229, 194, 0.25);
+    margin-bottom: 15px;
+}
+.secondcard .card-title{
+    color: #067235;
+    font-weight: bold;
+    font-size: 20px;
+}
+.secondcard .card-text{
+    font-size: 13px !important;
+}
+
+.last{
+    margin-bottom: 30px;
+}
+.tips{
+    font-size: 15px;
+}
+.secondsection .card-title{
+    font-weight: bold;
+    font-size: 19px;
+}
+.secondsection .card-text{
+    font-size: 13px;
+}
+.secondsection .dollar{
+    font-weight: bold;
+}
+.greens{
+    width: 40px;
+    height:40px;
 }
 
 

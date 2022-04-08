@@ -3,11 +3,16 @@ body{
 }
 .navbar-brand{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Libre Caslon Text', serif !important;
+}
+.navbar-brand:hover{
+    color: black !important;
 }
 .nav-item{
     margin-left: 40px;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .plaza{
     color: #2CBF6C;
@@ -40,12 +45,16 @@ a:hover{
     
 }
 .greenbtn:hover{
-    background-color: rgb(245, 241, 241);
+    transition: ease;
+    transition: all, 0.5s;
+    background-color: white;
     border: 1px solid #2CBF6C;
     color: #2CBF6C;
     border-radius: 8px;
     font-weight: bold;
     font-size: 13px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
 }
 .whitebtn{
     border: 1px solid #2CBF6C;
@@ -56,11 +65,15 @@ a:hover{
     
 }
 .whitebtn:hover{
+    transition: ease;
+    transition: all, 0.5s;
     background-color:#29a05d;
     color: #FFFFFF;
     border-radius: 8px;
     font-weight: bold;
     font-size: 13px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
 }
 
 .firstimg{
@@ -81,6 +94,8 @@ a:hover{
     margin-bottom: 15px;
 }
 .card:hover{
+    transition: ease;
+    transition: all, 0.5s;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 .card .card-body{
@@ -90,6 +105,9 @@ a:hover{
     width: 100px;
     height: 85px;
 }
+.cardtext .tips .eathealthy{
+    font-family: 'Libre Caslon Text', serif !important;
+}
 
 .eathealthy{
     font-weight: bold;
@@ -97,6 +115,14 @@ a:hover{
     letter-spacing: 1px;
 }
 
+.second h3{
+    font-family: 'Libre Caslon Text', serif !important;
+
+}
+
+.second p{
+    font-size: 13px;
+}
 .secondcard{
     background: rgba(166, 229, 194, 0.25);
     margin-bottom: 15px;
